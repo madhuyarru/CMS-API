@@ -5,7 +5,7 @@ public class ProductStore
     private readonly object syncRoot = new();
     private readonly Dictionary<int, Product> products = new()
     {
-        [1] = new Product(1, "Notebook", 5.99m),
+        [1] = new Product(1, "Notebook1", 5.99m),
         [2] = new Product(2, "Pen", 1.49m)
     };
     private int nextId = 3;
